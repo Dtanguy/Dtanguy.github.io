@@ -437,15 +437,10 @@
 
         <div class="row">
             <div class="col s12 m12 l 12">
-			<!--
-                <form class="card big" method="post" action="send_form.php">
-                    <div class="card-content">    -->
-                        <!--
-                        <span class="card-title"><i class="material-icons medium up">info_outline</i>&emsp;Contact</ span>
-                        <p><i class="material-icons small up_min">email</i>&emsp; demme.tanguy@hotmail.fr</p>
-                        -->
+			<
+                <form class="card big" name="contactform" action="https://formspree.io/demme.tanguy@hotmail.fr" method="POST">
+                    <div class="card-content">    
 
-<!--
                         <br>
                         <div class="row">
                             <div class="input-field col s4">
@@ -480,23 +475,24 @@
                         <div class="row">
                             <div class="col s4"></div>
                             <div class="col s4">
-                                <center><a class="waves-effect waves-light btn" ><i class="material-icons left">email</i>Envoyer</a></center>
+                                <center>
+								<input type="submit" value="<i class="material-icons left">email</i>Envoyer">
+								<a class="waves-effect waves-light btn" ><i class="material-icons left">email</i>Envoyer</a>								
+								</center>
                             </div>
                             <div class="col s4"></div>
                         </div>
 
-						<input type="submit" value="Submit">
-
+						<!--
+						<input type="text" name="name">
+						<input type="email" name="_replyto">
+						<input type="submit" value="Send">
+						-->
+						
                     </div>
                 </form>
-				-->
-			
 				
-				<form name="contactform" action="https://formspree.io/demme.tanguy@hotmail.fr" method="POST">
-					<input type="text" name="name">
-					<input type="email" name="_replyto">
-					<input type="submit" value="Send">
-				</form> 
+			
 
             </div>
         </div>
